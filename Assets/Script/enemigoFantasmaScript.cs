@@ -76,19 +76,19 @@ public class enemigoFantasmaScript : MonoBehaviour
 
             if(dirPatrullaDcha == true)
             {
-                transform.Translate(velocidadPatrulla, 0, 0);
+                transform.Translate(velocidadPatrulla*Time.deltaTime, 0, 0);
                 this.GetComponent<SpriteRenderer>().flipX = true;
             }
             else
             {
-                transform.Translate(velocidadPatrulla*-1, 0, 0);
+                transform.Translate(velocidadPatrulla*-1*Time.deltaTime, 0, 0);
                 this.GetComponent<SpriteRenderer>().flipX = false;
             }
         }
 
         if(estado == "ataque")
         {
-            transform.position = Vector3.MoveTowards(transform.position, Personaje.transform.position, velocidadAtaque);
+            transform.position = Vector3.MoveTowards(transform.position, Personaje.transform.position, velocidadAtaque*Time.deltaTime);
         }
 
 

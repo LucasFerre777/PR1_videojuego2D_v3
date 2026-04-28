@@ -107,12 +107,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::enemigoFantasmaScript
   distanciaPatrulla: 2
-  velocidadPatrulla: 0.01
+  velocidadPatrulla: 4
   posicionLimitIzq: {x: 0, y: 0, z: 0}
   posicionLimitDcha: {x: 0, y: 0, z: 0}
   distanciaAtaque: 5
   distanciaEvitar: 7
-  velocidadAtaque: 0.01
+  velocidadAtaque: 5
 --- !u!70 &4553670432206466871
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
