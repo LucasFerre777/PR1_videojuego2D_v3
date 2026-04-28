@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "PR1_videojuego2D-main-main.slnx"
+    "dotnet.defaultSolution": "PR1_videojuego2D_v3.slnx"
 }
